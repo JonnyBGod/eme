@@ -1,0 +1,21 @@
+rootProject.name = 'McRides'
+
+include ':RNGcmAndroid', ':react-native-system-notification', ':reactnativemapboxgl', ':RNMaterialKit', ':react-native-vector-icons', ':RNDeviceInfo', ':ReactNativeLocalization', ':reactdate', ':app'
+
+project(':RNGcmAndroid').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gcm-android/android')
+project(':react-native-system-notification').projectDir = new File(settingsDir, '../node_modules/react-native-system-notification/android')
+
+project(':reactnativemapboxgl').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mapbox-gl/android')
+
+project(':RNMaterialKit').projectDir = file('../node_modules/react-native-material-kit/android')
+
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+project(':RNDeviceInfo').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+
+project(':ReactNativeLocalization').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-localization/android')
+
+project(':reactdate').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-date')
+
+include ':RNEventSource'
+project(':RNEventSource').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-eventsource/android')

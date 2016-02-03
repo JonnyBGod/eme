@@ -1,0 +1,37 @@
+{
+  "name": "McRides",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.ios.js",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "alt": "latest",
+    "autobind-decorator": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-0": "latest",
+    "fbjs": "^0.6.x",
+    "flux": "latest",
+    "install": "latest",
+    "moment": "latest",
+    "npm": "latest",
+    "qs": "latest",
+    "react-native": "^0.19.x",
+    "react-native-communications": "latest",
+    "react-native-date": "latest",
+    "react-native-drawer-layout": "latest",
+    "react-native-facebook-login": "latest",
+    "react-native-localization": "latest",
+    "react-native-mapbox-gl": "latest",
+    "react-native-material-kit": "latest",
+    "react-native-modalbox": "latest",
+    "react-native-navbar": "latest",
+    "react-native-router-flux": "latest",
+    "react-native-shake-event-ios": "^1.0.3",
+    "react-native-vector-icons": "latest",
+    "react-timer-mixin": "latest",
+    "underscore": "latest"
+  }
+}
